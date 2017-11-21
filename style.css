@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+  
+body { 
+    display: -webkit-flex;
+    display: flex;
+  
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+    font-family: DroidSerif;
+    font-size: 17px;
+    color: #333;
+    line-height: 1.5;
+    background-repeat: repeat;
+}
+  
+a {
+    text-decoration: none;
+    color: #16a085;
+}
+  
+.home-page {
+    padding: 15px;
+}
+  
+.profile-box {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+}
+  
+.profile-pic img {
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+}
+  
+.profile-box h1, .profile-box p {
+    font-family: Coustard;
+    font-weight: 500;
+}
+  
+.profile-box p {
+    font-size: 19px;
+    color: #878787;
+}
+  
+.intro {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+}
+  
+.intro p {
+    text-align: left;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+  
+
+  
+@media (min-width: 768px) {
+    .home-page {
+      width: 700px;
+    }
+}
+  
+  
+.links {
+    font-size: 15px;
+}
+
+  
+.links {
+    font-size: 17px;
+}
+  
+.half {
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.links:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.links ul {
+    list-style: none;
+    line-height: 2;
+}
+  
+.links a {
+    color: #333;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+  
+.links a:hover {
+    color: #16a085;
+}
